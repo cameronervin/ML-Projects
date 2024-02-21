@@ -9,10 +9,10 @@ The goal of this project is to use Deep Learning and Artificial Intelligence tec
 Our dataset is from MIT's Applied Data Science Program. 
 
 We use the following Python/JupyterNotebook libraries in our work: 
-• TensorFlow and Keras to create our model architecture.  
-• Scikit-learn for model evaluation and data processing.
-• Seaborn and Matplotlib for data visualization.
-• Other essential libraries include NumPy, Pandas, and TensorFlow.
+* TensorFlow and Keras to create our model architecture.
+* Scikit-learn for model evaluation and data processing.
+* Seaborn and Matplotlib for data visualization.
+* Other essential libraries include NumPy, Pandas, and TensorFlow.
 
 ## Technical Approach
 
@@ -20,17 +20,17 @@ First, we perform exploratory data analysis (EDA) by checking the distributions 
 
 ## Highlights
 
-• EDA
-• Convolutional Neural Networks
-• Multi-Layer Perceptron
-• Transfer Learning
-• Model Analysis
+* EDA
+* Convolutional Neural Networks
+* Multi-Layer Perceptron
+* Transfer Learning
+* Model Analysis
 
 ## Conclusion
 
-• We are going ahead with our final model, i.e, model3. The earlier models have a very less number of trainable parameters.
-• We also tried out a few Transfer Learning architectures. But we realized that we couldn't use 'grayscale' color mode with those architectures. And as per our analysis, 'rgb' color mode was giving really poor results when we used 3 input channel images with our Deep Learning Architectures.
-• Thus we had to come up with our complex CNN architecture that has a comparable number of trainable parameters to our Transfer Learning Architectures and works with single channel (or 'grayscale') inputs. This final model had 5 Convolutional blocks, with each Conv2D layer having a significantly higher number of filters than all its predecessors.
-• As expected, our final model gives us higher accuracies over validation and test data than all the other models.
-• The model has consistent values over training, testing, and validation accuracies, suggesting that there is no overfitting.
+* We are going ahead with our final model, i.e, model3. The earlier models have a very less number of trainable parameters.
+* We also tried out a few Transfer Learning architectures. But we realized that we couldn't use 'grayscale' color mode with those architectures. And as per our analysis, 'rgb' color mode was giving really poor results when we used 3 input channel images with our Deep Learning Architectures.
+* Thus we had to come up with our complex CNN architecture that has a comparable number of trainable parameters to our Transfer Learning Architectures and works with single channel (or 'grayscale') inputs. This final model had 5 Convolutional blocks, with each Conv2D layer having a significantly higher number of filters than all its predecessors.
+* As expected, our final model gives us higher accuracies over validation and test data than all the other models.
+* The model has consistent values over training, testing, and validation accuracies, suggesting that there is no overfitting.
 
